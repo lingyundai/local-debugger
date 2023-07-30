@@ -34,6 +34,11 @@ recent = [
   "Find Minimum in Rotated Sorted Array",
   "Search in Rotated Sorted Array",
   "time based key-value store",
+]
+
+print(random.sample(recent, 3))
+
+linkedList = [
   "reverse linked list",
   "merge 2 sorted lists",
   "reorder list",
@@ -45,9 +50,9 @@ recent = [
   "LRU Cache",
 ]
 
-print(random.sample(recent, 3))
+print(random.sample(linkedList, 2));
 
-tree = [
+treeTries = [
   "invert binary tree", 
   "maximum depth of binary tree",
   "Diameter of Binary Tree",
@@ -61,13 +66,8 @@ tree = [
   "Validate Binary Search Tree",
   "Kth Smallest Element In a Bst",
   "Construct Binary Tree From Preorder And Inorder Traversal",
+  "1",
+  "2",
 ]
 
-print(random.sample(tree, 4))
-
-tries = [
-    1,
-    2,
-]
-
-print(random.sample(tries, 1))
+print(random.sample(treeTries, 4))
