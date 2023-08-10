@@ -1,6 +1,6 @@
 import random
 
-questions = [
+arrays = [
   "contains duplicates",
   "valid anagrams",
   "two sum",
@@ -10,6 +10,11 @@ questions = [
   "valid sodoku",
   "encode and decode strings",
   "longest consecutive sequence",
+]
+
+print("arrays: ", random.sample(arrays, 1))
+
+twoPointersSlidingWindow = [
   "valid palindrome",
   "two sums II input array is sorted",
   "3sum",
@@ -20,15 +25,21 @@ questions = [
   "permutation in string",
 ]
 
-print(random.sample(questions, 4))
+print("two pointers sliding window: ", random.sample(twoPointersSlidingWindow, 1))
 
-recent = [
+stacks = [
   "valid parentheses",
   "min stack",
   "generate parentheses",
   "evaluate reverse polish notation",
   "daily temperature",
   "car fleet",
+]
+
+print("stacks: ", random.sample(stacks, 1))
+
+binarySearch = [
+  "binary search",
   "search a 2d matrix",
   "koko eats banana",
   "Find Minimum in Rotated Sorted Array",
@@ -36,7 +47,7 @@ recent = [
   "time based key-value store",
 ]
 
-print(random.sample(recent, 3))
+print("binary search: ", random.sample(binarySearch, 1))
 
 linkedList = [
   "reverse linked list",
@@ -50,7 +61,7 @@ linkedList = [
   "LRU Cache",
 ]
 
-print(random.sample(linkedList, 2));
+print("linked list: ", random.sample(linkedList, 1))
 
 treeTries = [
   "invert binary tree", 
@@ -66,8 +77,16 @@ treeTries = [
   "Validate Binary Search Tree",
   "Kth Smallest Element In a Bst",
   "Construct Binary Tree From Preorder And Inorder Traversal",
-  "1",
-  "2",
+  "Implement Trie Prefix Tree",
+  "Design Add And Search Words Data Structure",
 ]
 
-print(random.sample(treeTries, 4))
+print("trees tries: ", random.sample(treeTries, 3))
+
+heap = [
+    "Kth Largest Element In a Stream",
+    "last stone weight",
+    "K Closest Points to Origin",
+]
+    
+# print("heap: ", random.sample(heap, 2))
