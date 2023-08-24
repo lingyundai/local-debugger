@@ -81,12 +81,25 @@ treeTries = [
   "Design Add And Search Words Data Structure",
 ]
 
-print("trees tries: ", random.sample(treeTries, 3))
+print("trees tries: ", random.sample(treeTries, 1))
 
 heap = [
     "Kth Largest Element In a Stream",
     "last stone weight",
     "K Closest Points to Origin",
+    "kth largest element in an array",
+    "task scheduler",
+    "design twitter",
 ]
     
-# print("heap: ", random.sample(heap, 2))
+print("heap: ", random.sample(heap, 1))
+
+backtracking = [
+    "subsets",
+    "combination sum",
+    "permutation",
+    "subset II",
+    "combination sum II",
+    "word search",
+]
+
