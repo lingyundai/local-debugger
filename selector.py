@@ -101,5 +101,7 @@ backtracking = [
     "subset II",
     "combination sum II",
     "word search",
+    "palindrome partitioning",
+    "letter combinations of a phone number",
 ]
 
